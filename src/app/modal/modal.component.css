@@ -1,0 +1,22 @@
+.smallText {
+    font-family: 'NinjaRush', sans-serif;
+    color: black;
+    font-size: 60px;  
+}
+
+.modal-content{
+    background-color: #a07a53;
+}
+
+.modal-header,.modal-footer{
+    border-width: 5px;
+    border-color: #533f2b;
+}
+
+.btn {
+    color: white;
+    background-color: #533f2b;
+    font-family: 'NinjaRush', sans-serif;
+    border: black;
+    font-size:40px;
+}

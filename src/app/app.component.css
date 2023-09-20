@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'NinjaRush';
+  src: url('../assets/Ninja Rush.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Naruto';
+  src: url('../assets/njnaruto.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

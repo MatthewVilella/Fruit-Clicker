@@ -1,0 +1,17 @@
+<div>
+  <app-modal></app-modal>
+
+  <div *ngIf="scoreService.startClicked === false">
+    <start></start>
+  </div>
+
+  <div *ngIf="scoreService.startClicked === true">
+    <score></score>
+    <app-popup-button></app-popup-button>
+    <app-popup-button></app-popup-button>
+    <app-popup-button></app-popup-button>
+    <app-popup-button></app-popup-button>
+    <app-popup-button></app-popup-button>
+    <app-popup-button></app-popup-button>
+  </div>
+</div>

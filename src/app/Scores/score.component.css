@@ -1,0 +1,126 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.player {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a07a53;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Naruto', sans-serif;
+}
+
+.score {
+    padding: px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.points {
+    font-family: 'Naruto', sans-serif;
+    color: black;
+    font-size: 45px;
+    padding-left: 110px;
+}
+
+.lives {
+    font-family: 'Naruto', sans-serif;
+    color: black;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+.time {
+    font-family: 'Naruto', sans-serif;
+    color: black;
+    font-size: 45px;
+    padding-left: 80px;
+}
+
+.topRight,
+.topLeft {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 300px;
+    height: 300px;
+}
+
+.bottomRight,
+.bottomLeft {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.left,
+.right {
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+}
+
+.left img,
+.right img {
+    width: 70px;
+    align-items: flex-end;
+    animation: spin 2s linear infinite;
+    width: 200px;
+    height: 200px;
+}
+
+.topRight {
+    align-items: flex-end;
+    right: 0;
+}
+
+.bottomRight {
+    right: 0;
+}
+
+.left {
+    align-items: flex-start;
+}
+
+.left img {
+    margin-left: 50px;
+}
+
+.topLeft {
+    align-items: flex-start;
+    left: 0;
+}
+
+.bottomLeft {
+    left: 0;
+}
+
+.right {
+    top: 0;
+    right: 0;
+    align-items: flex-end;
+    padding-top: 300px;
+}
+
+.right img {
+    margin-right: 50px;
+}

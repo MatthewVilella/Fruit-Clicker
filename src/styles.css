@@ -1,0 +1,6 @@
+body {
+    background-image: url('/assets/images/dojo.jpg');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Fixed background scrolling */
+  }

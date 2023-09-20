@@ -1,0 +1,49 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(250px, 250px);
+  }
+  50% {
+    transform: translate(0, 350px);
+  }
+  75% {
+    transform: translate(-250px, 250px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.button-container {
+  position: absolute;
+  transition: top 0.5s, left 0.5s;
+}
+
+.popup-button {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-size: cover;
+  animation: spin 1s linear infinite, move 1s linear infinite;
+  cursor: crosshair;
+}
+
+.popup-button img {
+  width: 150px;
+  height: 150px;
+}
+
+

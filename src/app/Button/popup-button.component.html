@@ -1,0 +1,9 @@
+<div *ngIf="showButton">
+  <div class="button-container" [style.top.px]="topPosition" [style.left.px]="leftPosition">
+    <button class="popup-button" (click)="updateScore()">
+      <img [src]="imageUrl" alt="Random Image">
+    </button>
+  </div>
+</div>
+
+
